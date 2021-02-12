@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker-slave-demo'
+        cloud 'docker-slave-demo'
     }
     options {
         skipStagesAfterUnstable()
